@@ -16,6 +16,11 @@ $ repo init -u https://github.com/clondroid/cba-aosp-marlin-7.git -b master
 $ repo sync
 ```
 
+### lxc source
+
+The essential lxc distribution has not been integrated into Android build process yet, please reference [lxc-for-Android-7.1.2](https://github.com/clondroid/lxc-for-Android-7.1.2) for how to build lxc by yourself.
+As for the lxc packages binaries, they have been integrated into CBA Android source under “vendor/icl”. 
+
 ## Building host and container ROM images
 
 Building rom images for host and container is quite straight forward, please follow the steps described below.
