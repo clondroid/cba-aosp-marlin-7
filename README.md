@@ -16,6 +16,10 @@ $ repo init -u https://github.com/clondroid/cba-aosp-marlin-7.git -b master
 $ repo sync
 ```
 
+### Vendor specific binaries
+
+**!!! IT IS VERY IMPORTANT !!!**, due to license issues, the google and qcom vendor specific driver binaries are not included in CBA code repositories, you have to download and install it by yourselves, please reference CBA project repository "[android_vendor_marlin_7](https://github.com/clondroid/android_vendor_marlin_7)" for how to download and install google and qcom vendor specific driver binaries into CBA source code trees.
+
 ### lxc source
 
 The essential lxc distribution has not been integrated into Android build process yet, please reference [lxc-for-Android-7.1.2](https://github.com/clondroid/lxc-for-Android-7.1.2) for how to build lxc by yourself.
