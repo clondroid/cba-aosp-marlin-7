@@ -4,16 +4,17 @@ For easier tracking and maintenence, we use a clean Android aosp-marlin-7.1.2_r1
 
 There is also a document available on slideshare for [the brief system architecture of Android Containerization](https://www.slideshare.net/PowenCheng1/android-containerization-in-brief). 
 
-## Getting Started
+## Downloading The Code
 
 To initialize and sync up your local repository using the CBA trees, use a command like this:
 
-> \# create a working directory, say "aosp-marlin-7.1.2_r17"
-> $ mkdir -p cba/aosp-marlin-7.1.2_r17
-> $ cd cba/aosp-marlin-7.1.2_r17
-> $ repo init -u https://github.com/clondroid/cba-aosp-marlin-7.git -b master
-> $ repo sync
-
+```shell
+# create a working directory, say "aosp-marlin-7.1.2_r17"
+$ mkdir -p cba/aosp-marlin-7.1.2_r17
+$ cd cba/aosp-marlin-7.1.2_r17
+$ repo init -u https://github.com/clondroid/cba-aosp-marlin-7.git -b master
+$ repo sync
+```
 
 ## Building host and container ROM images
 
