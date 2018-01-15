@@ -9,9 +9,9 @@ There is also a document available on slideshare for [the brief system architect
 To initialize and sync up your local repository using the CBA trees, use a command like this:
 
 ```shell
-# create a working directory, say "aosp-marlin-7.1.2_r17"
-$ mkdir -p cba/aosp-marlin-7.1.2_r17
-$ cd cba/aosp-marlin-7.1.2_r17
+# create a working directory, say "cba-aosp-marlin-7.1.2_r17"
+$ mkdir -p cba/cba-aosp-marlin-7.1.2_r17
+$ cd cba-aosp-marlin-7.1.2_r17
 $ repo init -u https://github.com/clondroid/cba-aosp-marlin-7.git -b master
 $ repo sync
 ```
@@ -29,8 +29,8 @@ As for the lxc packages binaries, they have been integrated into CBA Android sou
 
 Building rom images for host and container is quite straight forward, please follow the steps described below.
 
-- change directory to , say "~/cba/aosp-marlin-7.1.2_r17"
-  - "cba/aosp-marlin-7.1.2_r17" will be $CBA_ANDROID_HOME
+- change directory to , say "~/cba/cba-aosp-marlin-7.1.2_r17"
+  - "cba/cba-aosp-marlin-7.1.2_r17" will be $CBA_ANDROID_HOME
   - Use the following steps to build host and container images
 
 **[Steps for host]**
